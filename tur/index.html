@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<form id="form" action="handler.php" method="post" >
+
+
+   <p><b>Выберите тур из списка</b></p>
+        <select name="tour" >
+            <option selected disabled>Выберите</option>
+            <option value="Turkey">Турция</option>
+            <option value="Egypt">Египет</option>
+            <option value="Italy">Италия</option>
+        </select>
+
+<br>
+
+    Введите количество дней : <input type="number" name="amount"><br><br>
+    <p><b>Укажите размер скидки :</b></p>
+    <p><input name="discount" type="radio" value="5" > 5%</p>
+    <p><input name="discount" type="radio" value="10"> 10%</p>
+    <p><input name="discount" type="radio" value="15" > 15%</p>
+
+      <p>  <input type="submit" value="Отправить"></p>
+
+</form>
+</body>
+</html>
